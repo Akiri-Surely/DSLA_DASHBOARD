@@ -1,0 +1,219 @@
+body {
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+@font-face {
+   font-family: "Roboto-Regular";
+   src: url('../fonts/');
+   src: url('../fonts/?#iefix') format('embedded-opentype'), url('../fonts/#Roboto-Regular') format('svg'), url('../fonts/') format('truetype'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/') format('woff2');
+}
+a {
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited {
+   color: #800080;
+}
+a:active {
+   color: #FF0000;
+}
+a:hover {
+   color: #0000FF;
+   text-decoration: underline;
+}
+#Layer1 {
+   background-color: #DCDCDC;
+   background-image: none;
+}
+#Layer2 {
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 1px #A9A9A9 solid;
+   border-radius: 2px;
+}
+#txtUsername {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#txtUsername:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#txtPassword {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#txtPassword:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#btnLogin {
+   background-color: #3370B7;
+   background-image: none;
+   border: 1px #2E6DA4 solid;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+}
+#wb_Text1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text1 div {
+   text-align: left;
+}
+#wb_Text2 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text2 div {
+   text-align: left;
+}
+#wb_Text3 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text3 div {
+   text-align: left;
+}
+#wb_uid1 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+}
+#wb_uid2 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+}
+#wb_Text1 {
+   height: 17px;
+   left: 34px;
+   position: absolute;
+   top: 77px;
+   width: 208px;
+   z-index: 3;
+}
+#wb_uid3 {
+   color: #3370B7;
+   font-family: Arial;
+   font-size: 29px;
+}
+#wb_Text2 {
+   height: 17px;
+   left: 33px;
+   position: absolute;
+   top: 177px;
+   width: 208px;
+   z-index: 4;
+}
+#wb_Text3 {
+   height: 33px;
+   left: 33px;
+   position: absolute;
+   top: 21px;
+   width: 208px;
+   z-index: 5;
+}
+#txtPassword {
+   height: 21px;
+   left: 33px;
+   line-height: 21px;
+   position: absolute;
+   top: 204px;
+   width: 244px;
+   z-index: 1;
+}
+#Layer1 {
+   bottom: 0;
+   left: 0;
+   position: fixed;
+   right: 0;
+   text-align: center;
+   top: 0;
+   z-index: 14;
+}
+#Layer2 {
+   height: 355px;
+   left: 469px;
+   position: absolute;
+   text-align: left;
+   top: 177px;
+   width: 322px;
+   z-index: 6;
+}
+#Layer1_Container {
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   text-align: left;
+   width: 1260px;
+}
+#txtUsername {
+   height: 21px;
+   left: 34px;
+   line-height: 21px;
+   position: absolute;
+   top: 106px;
+   width: 244px;
+   z-index: 0;
+}
+#btnLogin {
+   height: 33px;
+   left: 97px;
+   position: absolute;
+   top: 283px;
+   width: 127px;
+   z-index: 2;
+}
+#wb_uid0 {
+   border-width: 0;
+   left: 441px;
+   position: absolute;
+   top: 967px;
+   z-index: 250;
+}
